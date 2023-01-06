@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/donation5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(24, 23, 23,.5);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    text-align: center;
+    color: white;
+}
+.banner h1{
+    font-size: 60px;
+    font-weight: 700;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 18px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.btn{
+    padding: 14px 18px;
+    background: rgb(241, 112, 57);
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+}
+
+.donation{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donation .container{
+    width: 820px;
+    margin: auto;
+    text-align: center;
+}
+
+.container h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.container p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.amount{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount button{
+    width: 140px;
+    height: 120px;
+    border: none;
+    font-size: 35px;
+    font-weight: 600;
+    color: gray;
+    border-radius: 9px;
+}
+.amount button:hover{
+    color: rgb(255, 72, 72);
+    background-color: rgb(255, 218, 218);
+    border: 3px solid;
+}
+.donation form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donation form input{
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1.2px solid rgb(173, 173, 173);
+    margin-bottom: 33px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(159, 159, 159);
+    padding: 10px;
+    width: 100%;
+}
+.donation form input:focus{
+    outline: none;
+    overflow: hidden;
+    margin-bottom: 33px;
+}
+.donation form button{
+    width: 160px;
+}
+
+.donation-plan{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation-plan .container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.donation-plan .plan-text{
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.all-plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-info{
+    width: 400px;
+    margin-left: 3px;
+    text-align: left;
+    padding: 60px 22px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.plan-info p{
+    margin-bottom: 0px;
+}
+.plan-info h3{
+    margin: 20px auto;
+}
+
+.plan-info1{
+    background-color: rgb(221, 231, 231);
+}
+.plan-info2{
+    background-color: rgb(230, 216, 216);
+}
+.plan-info3{
+    background-color: rgb(225, 225, 212);
+}
+
+.contribute-process{
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.contribute-process .container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+}
+.process{
+   width: 45%;
+}
+.contribute-process img{
+    width: 45%;
+    height: auto;
+    border-radius: 12px;
+}
+.updates{
+    width: 100%;
+
+}
+.updates .container{
+    width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.updates .container p{
+    width: 60%;
+    margin: auto;
+}
+
+.updates .container form{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(255, 230, 226);
+    border-radius: 10px;
+    padding: 100px 200px;
+}
+
+.updates .container input[type="email"]{
+    width: 65%;
+    height: 50px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+
+}
+
+footer{
+    height: 250px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: black;
+    display: grid;
+    place-content: center;
+}
+ footer h2{
+    color: rgb(255, 113, 113);
+    font-size: 45px;
+    font-weight: 700;
+ }
+ footer p{
+    color: white;
+ }
